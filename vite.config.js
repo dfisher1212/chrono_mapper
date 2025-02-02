@@ -1,12 +1,16 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  base: './',
-  plugins: [],
   build: {
-    outDir: 'dist'
+    rollupOptions: {
+      output: {
+        assetFileNames: "assets/[name]-[hash][extname]"
+      }
+    }
   },
   server: {
-    port: 5173
+    fs: {
+      allow: ['public']
+    }
   }
 });
