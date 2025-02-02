@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cesium Timeline Map</title>
+    <script type="module" src="main.js"></script>
+    <style>
+        #cesiumContainer { width: 100vw; height: 100vh; position: absolute; }
+        #controls { position: absolute; top: 10px; left: 10px; background: white; padding: 10px; z-index: 10; }
+    </style>
+</head>
+<body>
+
+    <!-- ✅ Dropdown for selecting years -->
+    <div id="controls">
+        <label for="yearSelect">Select Year:</label>
+        <select id="yearSelect">
+            <option value="1789">1789</option>
+            <option value="-1200">1200 BC</option>
+        </select>
+    </div>
+
+    <!-- ✅ Cesium Container -->
+    <div id="cesiumContainer"></div>
+
+</body>
+</html>
+
+
+

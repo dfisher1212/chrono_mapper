@@ -1,0 +1,28 @@
+{
+  "name": "chrono_mapper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "type": "module",
+  "devDependencies": {
+    "vite": "^5.4.14"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dfisher1212/chrono-mapper.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dfisher1212/chrono-mapper/issues"
+  },
+  "homepage": "https://github.com/dfisher1212/chrono-mapper#readme",
+  "dependencies": {
+    "cesium": "^1.125.0"
+  }
+}
