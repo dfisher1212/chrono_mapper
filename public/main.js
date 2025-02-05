@@ -4,7 +4,7 @@ import "cesium/Build/Cesium/Widgets/widgets.css";
 // ✅ Set Cesium base URL
 window.CESIUM_BASE_URL = "/Cesium/";
 
-Cesium.Ion.defaultAccessToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiIyMjFjYzhjMy02MjQyLTQ4NjktYmRhZS0xYzhkYzgyNTJkYzAiLCJpZCI6MjcyMjcwLCJpYXQiOjE3MzgyMDc5NjZ9.sfBk2vy0RcwFLNb8ySxabHstQYk2D08L4z1_R2DEHFY";
+Cesium.Ion.defaultAccessToken = import.meta.env.VITE_CESIUM_ION_ACCESS_TOKEN;
 
 // ✅ Declare the viewer globally
 let viewer;
